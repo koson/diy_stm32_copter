@@ -1,0 +1,36 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Stm32F407MCU.PrjPCB|ReportField=ProjectFullPath~D:\altium_hhh\main_ws\Altium_stm_copter\Stm32F407MCU.PrjPCB|ReportField=Title~Bill of Materials For Project [Stm32F407MCU.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~70|ReportField=ReportTime~8:28:37 PM|ReportField=ReportDate~23/2/2020|ReportField=ReportDateTime~23/2/2020 8:28:37 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~23/2/2020|ReportField=CurrentTime~8:27:31 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\altium_hhh\main_ws\Altium_stm_copter\design_note.SchDoc|ReportField=DocumentName~design_note.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~14/2/2020|ReportField=Organization~|ReportField=ProjectName~Stm32F407MCU.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=1.12:XCorrection=1.00:YCorrection=1.00:PrintKind=0:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-3:MediaType=1:DitherType=10:PrintScaleMode=1:PaperKind=Letter:PaperIndex=1|ReportField=DataSourceFileName~Stm32F407MCU.PrjPCB|ReportField=DataSourceFullPath~D:\altium_hhh\main_ws\Altium_stm_copter\Stm32F407MCU.PrjPCB
+1|INPUT_POWER|Connector 3x2|5V_IN|JP3x2|JP3x2|1
+2|RESET|Switch|B2|3-1825910-5|SW-PB|1
+3|Header 2|Header, 2-Pin|BOOT0|HDR1X2|Header 2|1
+4|104|Capacitor (Semiconductor SIM Model)|C1, C2, C3, C4, C5, C6, C7, C8, C11, C18, C23|CAPC2012X98N|Cap Semi|11
+5|1uF|Capacitor (Semiconductor SIM Model)|C9|CAPC1608X90N|Cap Semi|1
+6|1uF|Polarized Capacitor (Axial)|C10|CAPPM3216X180N|Cap Pol2|1
+7|10uF|Tantalum Capacitor|C12|CAPPM3528X210N|Cap_Tan_1210|1
+8|Cap_0603|Capacitor|C13, C16, C17|CAPC3216X135N|Cap_0603|3
+9|22pF|Capacitor (Semiconductor SIM Model)|C14, C15|CAPC1608X95N|Cap Semi|2
+10|0.1uF|Capacitor (Semiconductor SIM Model)|C19, C21|CAPC2012X145N|Cap Semi|2
+11|10nF|Capacitor (Semiconductor SIM Model)|C20|CAPC2012X145N|Cap Semi|1
+12|2.2uF|Capacitor (Semiconductor SIM Model)|C32, C33|CAPC3216X125N|Cap Semi|2
+13|LTST-C171GKT|LED|LD1, LD2, LD5|LEDC2012X120N|LTST-C171GKT|3
+14|LTST-C171GKT|LED|LD3, LD4|LEDC2012X90N|LTST-C171GKT|2
+15|LM1117IMPX3.3_NOPB|Integrated Circuit|LM1117|SOT230P700X180-4N|LM1117IMPX3.3_NOPB|1
+16|MS561101BA03-00|Integrated Circuit|MS5611|SON125P300X500X100-8N|MS561101BA03-00|1
+17|PWM1|Connector 3x2|P1|JP3x2|JP3x2|1
+18|PWM2|Connector 3x2|P2|JP3x2|JP3x2|1
+19|PWM3|Connector 3x2|P3|JP3x2|JP3x2|1
+20|Header 8|Header, 8-Pin|P4|HDR1X8|Header 8|1
+21|SBUS|Jumper 3|P7|JP3|JP3|1
+22|Range Finder|Header, 4-Pin|P12|HDR1X4|Header 4|1
+23|DSA|Header, 4-Pin|P13|HDR1X4|Header 4|1
+24|IMU|Header, 4-Pin|P14|HDR1X4|Header 4|1
+25|SDIO|Header, 8-Pin|P17|HDR1X8|Header 8|1
+26|NPN1|NPN Darlington Bipolar Transistor|Q1|TO-92|NPN1|1
+27||Resistor|R1, R3, R4, R5, R6, R7, R9, R13, R24, R34|RESC2012X60N|Res3|10
+28|1K|Resistor|R2|RESC2012X60N|Res3|1
+29||Resistor|R8, R14, R15, R16, R17|RESC1608X55N|Res3|5
+30|10k|Resistor|R10, R11|RESC2012X60N|Res3|2
+31|Jumper 3|Jumper 3|RPM1, RPM2, RPM3, RPM4|JP3|JP3|4
+32|Header 3|Header, 3-Pin|spi_debug|HDR1X3|Header 3|1
+33|STM32F407VGT6|ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB Internal RAM, 82 I/Os, 100-pin LQFP, -40 to 85 degC, Tray|U1|STM-LQFP100_N|STM32F407VGT6|1
+34|MPU-9250||U3|QFN40P300X300X105_HS-25L|MPU-9250|1
+35|8Mhz|Crystal For all Crystal 2pin.|X2|XT2|XT2|1

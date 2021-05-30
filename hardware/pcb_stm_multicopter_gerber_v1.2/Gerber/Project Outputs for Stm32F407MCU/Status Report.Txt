@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Stm32F407MCU.PrjPCB]
+   Generated File[stm32f407_copter.TXT]
+   Generated File[stm32f407_copter.LDP]
+   Generated File[stm32f407_copter.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:22:18 PM On 25/2/2020
