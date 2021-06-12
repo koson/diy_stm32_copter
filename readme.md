@@ -9,11 +9,10 @@
 - SDcard module code: https://github.com/dinhthong/stm32f4_sd_logger/
 # Connect PCB with debugger
 ## SWD interface
-Attempt | #Debugger | #Target | #Note
+Pin | #Debugger | #Target | #Note
 --- | --- | --- | ---
 GND | GND | GND 
-SWDIO |SWDIO/TMS|JTMS|
-SWDCLK |SWDCLK/TCK|JTCK
+SWDIO |SWDIO/TMS|JTMS
 SWDCLK |SWDCLK/TCK|JTCK
 RESET |RESET|NRST |Optional
 5V |5V| 5V
