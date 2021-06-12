@@ -7,6 +7,20 @@
 - After finishing soldering the board, I've made several tests on each designed peripherals, you can find them under 'testfirm' folder.
 - A video I made to test the ICM AHRS module: https://www.youtube.com/watch?v=TO57MewXJ6E&ab_channel=Edinhthong
 - SDcard module code: https://github.com/dinhthong/stm32f4_sd_logger/
+# Connect PCB with debugger
+## SWD interface
+Attempt | #Debugger | #Target | #Note
+--- | --- | --- | ---
+GND | GND | GND 
+SWDIO |SWDIO/TMS|JTMS|
+SWDCLK |SWDCLK/TCK|JTCK
+SWDCLK |SWDCLK/TCK|JTCK
+RESET |RESET|NRST |Optional
+5V |5V| 5V
+
+Currently The board must connect to power 5V line, GND from 2x3 male header to connect with debugger. The successful connection is shown in the photo. I haven't figured out why this is the case, maybe some problems with my debugging hardware design. Anyway it works :).
+
+![alt text](connect_board_with_debugger.jpg "Debugger Connection")
 # Todos
 ## 14 March 2020
 - Hàn mạch LM1117, đo điện áp ngõ ra
